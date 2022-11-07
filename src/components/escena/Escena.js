@@ -1,7 +1,12 @@
 import React from "react";
-function Escena(){
+
+function Escena({historias}){
   return(
-    <p>El nostre heroi estava surant per l'espai sideral quan a la llunyania va albirar una nau espacial</p>
-    )
-  };
+    <>
+      {historias.map((historia)=>(
+        <p>{historia}</p>
+      ))}
+    </>
+    );
+  }
 export default Escena;
