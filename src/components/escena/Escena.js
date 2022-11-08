@@ -1,6 +1,5 @@
 import React from "react";
-import {Texto} from "./Escena.styles";
-import {Container} from "./Escena.styles";
+import {Texto, Container} from "./styled-components";
 function Escena({historias}){
   return(
     <Container>
@@ -9,6 +8,6 @@ function Escena({historias}){
         
       ))}
     </Container>
-    );
+    )
   }
 export default Escena;

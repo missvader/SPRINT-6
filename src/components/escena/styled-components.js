@@ -11,3 +11,8 @@ export const Container = styled.div`
   display: grid;
 
 `
+export const Button = styled.button`
+  width: 50%;
+  height: 50px;
+  font-size: 1.5rem;
+`
