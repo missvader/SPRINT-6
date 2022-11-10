@@ -30,14 +30,21 @@ export const DivButtons = styled.div`
 `
 
 export const Start = styled.button`
-  background-color: #DE543F;
   width: 15%;
-  height: 2rem;
-  border: 1px solid grey;
-  font-weight: bolder;
-  &:hover{
-    cursor: pointer;
+  height: 3rem;
+  font-weight: bold;
+  border-color: #61196C;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #61196C inset, 0 0 0 0 #61196C;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+
+  &:hover {
+  box-shadow: 0 0 10px 0 #61196C inset, 0 0 10px 4px #61196C;
+  color: #61196C;
   }
+
+ 
 `
 export const Ingles = styled.p`
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
