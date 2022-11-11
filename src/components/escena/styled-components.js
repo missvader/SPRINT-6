@@ -1,17 +1,24 @@
 import styled from 'styled-components';
 export const Texto = styled.p`
   display: flex;
+  height: 2rem;
   border: 2px solid black;
   justify-content: center;
   border-radius: 50px;
   margin-right: 2rem;
   margin-left: 2rem;
   padding: 1rem 0 1rem 0;
+  
   background-color: ${({selectedHistoria})=>
-    (selectedHistoria ? "#FF9F9F" : "white") };
+    (selectedHistoria ? "#FF9F9F" : "rgb(255,255,255,0.4)") };
 `
 export const Container = styled.div`
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: ${({background})=> `url(${background})`};
 
 `
 export const Button = styled.button`
@@ -21,7 +28,7 @@ export const Button = styled.button`
   &:hover{
     cursor: pointer;
   }
-  background-color: #5A8787;
+  background-color: rgb(90, 135, 135,0.5);
   color: white;
 `
 export const DivButtons = styled.div`
@@ -46,31 +53,9 @@ export const Start = styled.button`
 
  
 `
-export const Ingles = styled.p`
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 3rem;
-`
-export const Catalan = styled.p`
-  color: #1BDABA;
+export const Intro = styled.p`
   font-size: 2rem;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-`
-export const Castellano = styled.p`
-  color: #C2A83E;
-  font-size: 3rem;
-  font-family: Arial, Helvetica, sans-serif;
-`
-export const Aleman = styled.p`
-  color: #15B097;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 2rem;
-`
-export const Frances = styled.p`
-  color: #314949;
-  font-size: 1rem;
+  color: white;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   font-family: 'Courier New', Courier, monospace;
-`
-export const Chino = styled.p`
-  color: #09493E;
-  font-size: 2rem;
 `
