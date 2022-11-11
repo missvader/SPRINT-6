@@ -1,6 +1,7 @@
 # HERO APP
 
 A client whose main product is a business management website developed with React, has asked us to develop a tutorial, in wich, using two buttons, new user can move forward and backward in the tips, modifying the help text and background image.
+
 ![HeroAppWelcome](src/assets/img/HeroAppWelcome.png)
 ![HeroApp](src/assets/img/HeroApp.png)
 
