@@ -1,5 +1,9 @@
-#HERO APP
+# HERO APP
+
 A client whose main product is a business management website developed with React, has asked us to develop a tutorial, in wich, using two buttons, new user can move forward and backward in the tips, modifying the help text and background image.
+https://raw.githubusercontent.com/missvader/SPRINT-6/develop/src/assets/HeroAppWelcome.png
+https://raw.githubusercontent.com/missvader/SPRINT-6/develop/src/assets/HeroApp.png
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Available Scripts
